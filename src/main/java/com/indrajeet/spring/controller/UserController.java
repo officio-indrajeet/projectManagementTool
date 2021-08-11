@@ -26,7 +26,7 @@ import com.indrajeet.spring.validator.UserValidator;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 public class UserController {
 	
 	

@@ -23,7 +23,7 @@ import com.indrajeet.spring.service.ValidationHandlerService;
 
 @RestController
 @RequestMapping("/api/project")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 public class ProjectController {
 
 

@@ -26,7 +26,7 @@ import com.indrajeet.spring.service.ValidationHandlerService;
 
 @RestController
 @RequestMapping("/api/backlog")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 public class BacklogController {
 	
 	
